@@ -8,13 +8,14 @@ attr_accessor :name
   end
 
   def back_project(project)
+    binding.pry
     @backed_projects << projects
     end
 
     def backed_projects
       @backed_projects
     end
-    
+
 
 
 
