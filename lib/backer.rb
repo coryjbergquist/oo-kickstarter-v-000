@@ -12,10 +12,7 @@ attr_accessor :name
     @backed_projects << projects
     end
 
-    def backed_projects
-      @backed_projects
-    end
-
+    
 
 
 
